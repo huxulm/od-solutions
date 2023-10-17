@@ -9,6 +9,12 @@ import (
 	"math/big"
 )
 
+// ABA
+// 3
+
+// ABCDEFGHHA
+// 907200
+
 func solve(_r io.Reader, _w io.Writer) {
 	reader, writer := bufio.NewReader(_r), bufio.NewWriter(_w)
 	defer writer.Flush()
